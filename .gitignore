@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Python 3 development directories (not in Python 2 legacy)
+.vscode/
+release/
+tests/
+vendor/
+htmlcov/
+.pytest_cache/
+coverage.xml
+.coverage
