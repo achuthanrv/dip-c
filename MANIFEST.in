@@ -1,0 +1,17 @@
+# Include version file
+include VERSION
+
+# Include documentation
+include README.md
+include LICENSE
+
+# Include color data files
+recursive-include color *.txt *.len *.cen
+
+# Include scripts
+include dip-c
+
+# Exclude test outputs and caches
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
