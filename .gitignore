@@ -109,3 +109,7 @@ htmlcov/
 .pytest_cache/
 coverage.xml
 .coverage
+
+# Additional ignores
+.DS_Store
+pytest.ini
